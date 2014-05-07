@@ -4,6 +4,9 @@
 \alias{functionalTraits}
 \title{Functional Traits Overall}
 \format{A data frame with 122 rows and 35 variables}
+\usage{
+data(functionalTraits)
+}
 \description{
 A dataset containing Functional Traits Overall
 }

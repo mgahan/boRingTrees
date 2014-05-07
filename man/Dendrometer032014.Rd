@@ -4,6 +4,9 @@
 \alias{Dendrometer032014}
 \title{Dendrometer032014}
 \format{A data frame with 7084 rows and 16 variables}
+\usage{
+data(Dendrometer032014)
+}
 \description{
 A dataset containing Dendrometer Data from March 2014
 }
