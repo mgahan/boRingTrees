@@ -49,7 +49,7 @@ rollingByCalcs <- function(data,bylist=NULL,dates,target=NULL,
   
   
   if (is.null(bylist)){
-    data[, id.filler := .I]
+    data[, id.filler := 1]
     bylist <- "id.filler"
   }
   
