@@ -24,7 +24,6 @@ sum by a Customer ID variable.
 ```r
 library("boRingTrees")
 
-
 set.seed(1)
 Trans_Dates <- as.Date(c(31,33,65,96,150,187,210,212,240,273,293,320,
                          32,34,66,97,151,188,211,213,241,274,294,321,
