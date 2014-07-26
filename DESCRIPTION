@@ -1,8 +1,8 @@
 Package: boRingTrees
 Type: Package
 Title: A Package for UIUC Ecologists
-Version: 1.0
-Date: 2014-05-06
+Version: 0.02
+Date: 2014-07-26
 Author: Mike Gahan
 Maintainer: Mike Gahan <michael.gahan@gmail.com>
 Description: Useful functions and data files for the UIUC Dalling Lab
