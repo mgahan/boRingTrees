@@ -44,7 +44,7 @@ rollingByCalcs <- function(data,bylist=NULL,dates,target=NULL,
   tic <- Sys.time()
   
   require("data.table")
-  require("parallel")
+  if (cores>1) {require("parallel")}
   data <- data.table(data)
   
   
