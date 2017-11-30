@@ -10,7 +10,7 @@ To install the development version from github, use the
 
 ```r
 library("devtools")
-install_github("boRingTrees","mgahan")
+install_github("mgahan/boRingTrees")
 ```
 
 Windows users also must first install
@@ -33,7 +33,7 @@ Target <- rpois(36,3)
 require("data.table")
 data <- data.table(Trans_Dates,Cust_ID,Target)
 
-data[,Roll:=rollingByCalcs(data=data,bylist="Cust_ID",dates="Trans_Dates",
+data[, Roll := rollingByCalcs(data=data,bylist="Cust_ID",dates="Trans_Dates",
         target="Target",lower=0,upper=31,incbounds=T,stat=sum,na.rm=T,cores=1)]
 
 ```
